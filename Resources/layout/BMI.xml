@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:text="BMI Calculator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:id="@+id/txtBMI"
+        android:textSize="26dip"
+        android:background="@android:color/holo_orange_dark"
+        android:textColor="@android:color/background_dark"
+        android:textAlignment="center"
+        android:layout_margin="40px" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout1">
+        <TextView
+            android:text="Weight(kg)"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@android:color/holo_blue_dark"
+            android:textColor="@android:color/background_light"
+            android:textSize="26dip"
+            android:id="@+id/textView1"
+            android:layout_marginLeft="20dip"
+            android:layout_marginTop="10dip"/>
+        <EditText
+            android:layout_width="263.0dip"
+            android:layout_height="match_parent"
+            android:id="@id/editWeight"
+            android:inputType="none|numberDecimal"
+            android:hint="Enter" />
+    </LinearLayout>
+       <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout2" >
+        <TextView
+            android:text="Height(M)"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@android:color/holo_blue_dark"
+            android:textColor="@android:color/background_light"
+            android:textSize="26dip"
+            android:id="@id/txtView7"
+            android:layout_marginLeft="20dip"
+            android:layout_marginTop="10dip" />
+        <EditText
+            android:layout_width="263.0dip"
+            android:layout_height="match_parent"
+            android:id="@id/Height"
+            android:text="Enter your height in meters."
+            android:inputType="none|numberDecimal" />
+    </LinearLayout>
+       <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout3" >
+        <TextView
+            android:text="Result"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@android:color/holo_blue_dark"
+            android:textColor="@android:color/background_light"
+            android:textSize="26dip"
+            android:id="@id/textView3"
+            android:layout_marginLeft="20dip"
+            android:layout_marginTop="10dip" />
+        <EditText
+            android:layout_width="263.0dip"
+            android:layout_height="match_parent"
+            android:id="@+id/txtResult"
+            android:text="" />
+    </LinearLayout>
+    <Button
+        android:text="Calculate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnCalculate"
+        android:background="@android:color/holo_orange_dark"
+        android:textSize="20dip"
+        android:layout_margin="40px" />
+    <TextView
+        android:text="Text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtMessage"
+        android:textSize="20dip"
+        android:background="@android:color/holo_blue_dark"
+        android:textColor="@android:color/background_light"
+        android:paddingRight="500px"
+        android:layout_margin="25px" />
+    <ImageButton
+        android:src="@drawable/result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton1" />
+
+ 
+
+</LinearLayout>
+
